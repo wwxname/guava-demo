@@ -24,7 +24,7 @@ public interface Constants {
 
 
     // MISC CONSTANTS
-    String DEFAULT_TABLE_PREFIX = "QRTZ_";
+    String DEFAULT_TABLE_PREFIX = "PLUS_";
 
 
     /**
