@@ -1,6 +1,6 @@
 package com.java.lock.quartz;
 
-import org.quartz.impl.jdbcjobstore.LockException;
+
 
 import java.sql.Connection;
 

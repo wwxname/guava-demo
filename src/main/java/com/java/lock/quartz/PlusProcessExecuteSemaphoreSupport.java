@@ -1,7 +1,6 @@
 package com.java.lock.quartz;
 
 
-import org.quartz.impl.jdbcjobstore.LockException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
