@@ -100,8 +100,7 @@ public abstract class PlusDBSemaphore implements Semaphore, Constants,
                                 + Thread.currentThread().getName());
             }
             getThreadLocks().add(lockName);
-            //getThreadLocksObtainer().put(lockName, new
-            // Exception("Obtainer..."));
+
         } else if(log.isDebugEnabled()) {
             log.debug(
                     "Lock '" + lockName + "' Is already owned by: "
@@ -120,7 +119,7 @@ public abstract class PlusDBSemaphore implements Semaphore, Constants,
                                 + Thread.currentThread().getName());
             }
             getThreadLocks().remove(lockName);
-            //getThreadLocksObtainer().remove(lockName);
+
         } else if (getLog().isDebugEnabled()) {
             getLog().warn(
                     "Lock '" + lockName + "' attempt to return by: "
